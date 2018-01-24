@@ -13,15 +13,10 @@ tags: [hexo, github, next]
 
 ### fork me on github
 
-#### 实现效果
-![](http://oslz30y7b.bkt.clouddn.com/18-1-23/32483058.jpg)
-
-#### 实现方法
-
-1）通过github-ribbons或github-corners，寻找合适的图标，把代码复制下来；
+#### 1）通过[github-ribbons](https://github.com/blog/273-github-ribbons)或[github-corners](http://tholman.com/github-corners/)，寻找合适的图标，把代码复制下来；
 ![](http://oslz30y7b.bkt.clouddn.com/18-1-23/25770231.jpg)
 
-2）打开` themes/next/layout/_layout.swig `文件，把代码复制到`<div class="headband"></div>`下面。
+#### 2）打开` themes/next/layout/_layout.swig `文件，把代码复制到`<div class="headband"></div>`下面。
 
 <!--more-->
 
@@ -80,7 +75,40 @@ hexo d
 
 ```
 
-https://www.jianshu.com/p/efbeddc5eb19?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+### 增加字数统计
 
-https://www.jianshu.com/p/f054333ac9e6?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+利用统计功能，显示文章字数统计,阅读时长,总字数
+
+1）在站点的根目录下，输入命令：
+
+```
+$ npm i --save hexo-wordcount
+```
+
+2）打开 `themes/next/_config.yml `，搜索关键字 `post_wordcount`：
+
+```
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  #字数统计
+  wordcount: true
+  #预览时间
+  min2read: true
+  #总字数,显示在页面底部
+  totalcount: true
+  separated_meta: true
+```
+
+### 实现动态背景
+
+这个比较酷炫，但是实现方法是最简单的，因为next V5.1.1主题自带，大牛已经写好了只要在设置文件中开启即可。
+
+在站点目录，找到next主题文件夹，路径是`themes/next/_config.yml`，搜索找到`canvas_nest: false`，把它改为`canvas_nest: true` ，齐活。
+
+### 预览效果
+最后的最后，所有的这些改动，会让blog看起来挺像那么回事。虽然也还是菜鸟，不过，怎么说呢……呵呵
+
+
 

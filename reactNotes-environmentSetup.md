@@ -1,5 +1,9 @@
-REACT学习笔记：REACT基础
-
+---
+title: 'REACT学习笔记：编程环境配置'
+date: 2018-01-30 21:28:27
+categories: react 
+tags: [react, github, node, npm] 
+---
 ### 编程环境搭建
 
 * Homebrew
@@ -11,6 +15,7 @@ REACT学习笔记：REACT基础
 #### Homebrew 包管理
 
 ##### Installation
+
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -19,6 +24,7 @@ REACT学习笔记：REACT基础
 ```
 brew update in
 ```
+<!--more-->
 
 #### Git  版本管理
 
@@ -28,7 +34,7 @@ brew update in
 brew install git
 ```
 
-##### 
+##### Verify if the installation was successful:
 
 ```
 git --version
@@ -147,7 +153,6 @@ npm test     // 运行所有测试
 
 npm run build     // 构建项目的产品文件 
 ```
-
 
 
 

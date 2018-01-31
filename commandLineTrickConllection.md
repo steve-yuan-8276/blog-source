@@ -87,4 +87,30 @@ $ cal 2017      //查看当年的日历
 $ date     查询具体日期时间
 ```
 
+### 查询比特币价格
+
+![](http://oslz30y7b.bkt.clouddn.com/18-1-31/80978729.jpg)
+
+Installation：
+前提是已经安装了node.js 和 npm，之后运行以下命令行：
+
+```
+ npm install -g coinmon
+```
+How to use：
+
+```
+coinmon     //不带任何参数运行 Coinmon，显示前 10 位加密货币
+
+coinmon -t 20     //使用 -t 标志查看最高的 n 位加密货币
+
+coinmon -c cny    //价格默认以美元显示。你还可以使用 -c 标志将价格从美元转换为另一种货币；cny表示人民币
+
+coinmon -f btc     //使用-f 加货币简称查询制定货币价格
+
+coinmon -h     //查询说明文档
+```
+
+
+
 

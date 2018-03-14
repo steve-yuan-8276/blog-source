@@ -40,7 +40,7 @@ print(s.xpath())#使用.xpath()
 * 右键——Copy——Copy Xpath，即可完成Xpath的复制
 
 示例：
-![](http://oslz30y7b.bkt.clouddn.com/17-12-1/27475888.jpg)
+![](https://farm5.staticflickr.com/4619/40100626262_150daf64f4_o.jpg)
 
 ```
 #从浏览器直接复制Xpath
@@ -61,7 +61,7 @@ print(s.xpath('//*[@id=“comments”]/ul/li[1]/div[2]/p/text()'))
 * starts-with 匹配字符串前面相等
 * contains 匹配任何位置相等
 示例：
-![](http://oslz30y7b.bkt.clouddn.com/17-12-1/66263706.jpg)
+![](https://farm5.staticflickr.com/4719/39234434515_428623e27d_o.jpg)
 
 ```
 #手写Xpath

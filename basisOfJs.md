@@ -48,9 +48,28 @@ false == {}  // false
 0 == null    // false
 ```
 
-https://blog.fundebug.com/2018/01/15/the-definitive-javascript-handbook-for-a-developer-interview/
+### 作用域(Scope)
 
-https://juejin.im/post/5a80fff0f265da4e7b44a7fc
+* **全局作用域**是最外层的作用域，在函数外面定义的变量属于全局作用域，可以被任何其他子作用域访问。在浏览器中，window对象就是全局作用域。
 
-https://juejin.im/post/5a810556f265da4e9f6fa465
+* **局部作用域**是在函数内部的作用域。在局部作用域定义的变量只能在该作用域以及其子作用域被访问。
+
+```
+function outer() {
+  let a = 1;
+  function inner() {
+    let b = 2;
+    function innermost() {
+      let c = 3;
+      console.log(a, b, c);   // 1 2 3
+    }
+    innermost();
+    console.log(a, b);        // 1 2 — 'c' is not defined
+  }
+  inner();
+  console.log(a);             // 1 — 'b' and 'c' are not defined
+}
+outer();
+```
+
 

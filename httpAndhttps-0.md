@@ -24,7 +24,7 @@ HTTP协议，是互联网上应用最广泛的一种网络传输协议，默认�
  
 ##### HTTP工作原理：
 
-![](https://lh3.googleusercontent.com/-cD5sV2BnGmc/WmB4UqzGHMI/AAAAAAABgEs/inzQcwbiwtwGV48xCmtfWGDYK0Kbg-pOQCHMYCw/I/15162716952948.jpg)
+![](https://farm5.staticflickr.com/4695/39234435335_7c8be9bd4f_o.jpg)
 
 ##### HTTP请求/响应的步骤：
 
@@ -49,7 +49,7 @@ HTTP协议，是互联网上应用最广泛的一种网络传输协议，默认�
 
 ##### HTTPS工作原理：
 
-![](https://lh3.googleusercontent.com/-lH6C_xUN3To/WmB6ZyZeMfI/AAAAAAABgE4/R7AdtYXSCIUY_Sks_XiXicvv8fh585fBwCHMYCw/I/15162722299193.jpg)
+![](https://farm5.staticflickr.com/4765/39421693144_da0a14a079_o.jpg)
 
 
 1. 客户使用HTTPS的URL访问Web服务器，要求与Web服务器建立SSL连接。　　

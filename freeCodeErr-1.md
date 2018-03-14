@@ -18,7 +18,7 @@ tags: [freeCodeCamp, JavaScript]
 
 3. 两张牌的点数，肯定介于2到21点之间。21点只可能是一张10（包括J，Q，K，下同）和一张A，这叫“天成（BlackJack，以下简称BJ）”，除非庄家也拿到了BJ，不然赢一倍半的赌注。
 
-![](https://lh3.googleusercontent.com/-WLqsjjrPsDQ/WkH924ZgKQI/AAAAAAABf28/1R987ErHR50raU81P8eK_WwdXgFPIPSKgCHMYCw/I/15142742657420.jpg)
+![](https://farm5.staticflickr.com/4622/40100610072_e4c4ebba32_o.jpg)
 
 解题方法：
 

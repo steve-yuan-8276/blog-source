@@ -1,4 +1,9 @@
-# React 学习笔记（一）： 初学者常见知识
+---
+title: 'React 学习笔记（二）： 初学者常见知识'
+date: 2018-02-27 20:55:29
+categories: react 
+tags: [react, node, npm] 
+---
 
 ### TIP 1: 正确使用大小写
 
@@ -21,6 +26,7 @@ componentDidMount|ComponentDidMount
 ReactDOM|ReactDom
 props.userName|props.username或props.UserName
 
+<!--more-->
 
 ### TIP 2：React.PropTypes 需要单独安装
 
@@ -140,6 +146,6 @@ export default User;
 
 * 返回数据后，setState() 被调用，并更新 name 和 age 属性
 
-##### 3. 因为状态已变化，render() 再次被调用。这样就会重新渲染页面，但是现在 this.state.name 和 this.state.age 具有值了
+##### 3. 因为状态已变化，render() 再次被调用。这样就会重新渲染页面，但是现在 this.state.name 和 this.state.age 具有值了。
 
 

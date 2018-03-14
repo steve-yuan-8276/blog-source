@@ -42,7 +42,7 @@ freeCodeCamp中文站: https://freecodecamp.cn
 ```
 
 显示结果如下：
-![](https://lh3.googleusercontent.com/-XAwmbZ5pvcM/Wjxd1JI_tbI/AAAAAAABfl0/drzsQtkOUpQPtXWN7eKd9Dv22VIKZxmDQCHMYCw/I/15139056181806.jpg)
+![](https://farm5.staticflickr.com/4675/40133544741_dd9dd0a9f0_o.jpg)
 
 这个没什么好说的。
 
@@ -74,7 +74,7 @@ freeCodeCamp中文站: https://freecodecamp.cn
 ```
 
 显示结果如下：
-![](https://lh3.googleusercontent.com/-ZW-3JYizirY/WjxfICME5MI/AAAAAAABfmA/QHqP0ciwkbga2YothK8cKThoVmLW5J_NwCHMYCw/I/15139059508364.jpg)
+![](https://farm5.staticflickr.com/4741/39421695944_433967bd0a_o.jpg)
 
 #### Level 3 ：加在id上的CSS优先级高于class
 
@@ -107,7 +107,7 @@ freeCodeCamp中文站: https://freecodecamp.cn
 
 ```
 显示结果：
-![](https://lh3.googleusercontent.com/-SF-VXz5ziLU/WjxjA73mslI/AAAAAAABfmM/b8pXMYbiuQA-z5t9MrZSfXLvCFkT1Z5VACHMYCw/I/15139069463657.jpg)
+![](https://farm5.staticflickr.com/4743/39421696204_e94993461b_o.jpg)
 
 看吧，是不是屎黄屎黄的？（太恶心了）
 
@@ -143,7 +143,7 @@ freeCodeCamp中文站: https://freecodecamp.cn
 
 ```
 显示结果如下：
-![](https://lh3.googleusercontent.com/-6mdjfBr-nU8/WjxkFN9cg-I/AAAAAAABfmY/eKSslbGy6pwT_tEzbLGrG06slvMAq90jQCHMYCw/I/15139072194318.jpg)
+![](https://farm5.staticflickr.com/4769/40133546411_2f68d25263_o.jpg)
 
 好吧，style越来越诡异了
 

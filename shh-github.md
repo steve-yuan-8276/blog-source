@@ -28,7 +28,7 @@ SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安�
 ssh-keygen -t rsa -C "<mail-box>" 
 ```
 一路下一步，看到下图的样子说明成功
-![](https://lh3.googleusercontent.com/-NlzmkQt0ttA/Wfxz0NIEtSI/AAAAAAABenM/brekgsmkL78f5f3691qDGH-Ye-fSFRe3wCHMYCw/I/15097169414517.jpg)
+![](https://farm5.staticflickr.com/4659/26259661148_836f20c8cb_o.jpg)
 
 #### 在终端输入：
  

@@ -27,34 +27,34 @@ tags: [hexo, github, https]
 
 #### step 1 ：添加域名，设置解析记录
 登录Cloudflare后，在这里 添加 你的域名，如下图，输入你的域名，例如 thinktxt.com 并点击Begin Scan开始扫描；
-![](https://lh3.googleusercontent.com/-1hnMkIm2mzk/WjPEYKxZYJI/AAAAAAABfek/Sa5iaqorT-gLCu2mnfe5guMo-_ZKhlUPQCHMYCw/I/15133420467243.jpg)
+![](https://farm5.staticflickr.com/4756/28352857899_d4f4bd9538_o.jpg)
 
 完成域名解析扫描后，点击 Continue Setup 继续；
 
 看到DNS记录（包括子域）列表之后，按照下图提示设置后，点击 Continue，进入下一步
-![](https://lh3.googleusercontent.com/-q2GGLqMAaS0/WjPEhE6bSPI/AAAAAAABfeo/vJ7TLdVUwqoVjYVV_JEG_Jp8DpAj_weyQCHMYCw/I/15133420845768.jpg)
+![](https://farm5.staticflickr.com/4710/39234442775_599ef25c74_o.jpg)
 **注：此处设置cname是为了重定向www**
 
 选择免费服务计划，然后点击下一步
 
 #### step 2 ：更改DNS Server
 以万网为例，在域名管理中选择DNS修改/创建，如下图：
-![](https://lh3.googleusercontent.com/-n_Qee-QcFhw/WjPE0dJB0rI/AAAAAAABfes/FEkmCF9MrhA7AMnmXfebO5gpOo806Fa6ACHMYCw/I/15133421605361.jpg)
+![](https://farm5.staticflickr.com/4742/28352858839_150edce8cc_o.jpg)
 
 在万网修改好DNS之后，在Cloudflare点击继续，如下图：
 
-![](https://lh3.googleusercontent.com/-B0ot5s45ifs/WjPE8RJ6HhI/AAAAAAABfe0/H-IL5L1BOZYTmY464jF8sKaVgAPUZMhygCHMYCw/I/15133421933266.jpg)
+![](https://farm5.staticflickr.com/4672/39421705074_b1f6d8898f_o.jpg)
 
 注：官方说域名服务器修改最长需要72小时生效，显示 Status: Active 即可。
 
 重定向：点击 Page Rules => Create Page Rule
 
 添加顶级域名重定向到https
-![](https://lh3.googleusercontent.com/-dJ68jj3hvuQ/WjPFxlqJfAI/AAAAAAABffA/eYcq4jR0wgEIFolkg0_Hpxv7XjQtPlU-wCHMYCw/I/15133424048938.jpg)
+![](https://farm5.staticflickr.com/4677/40100631212_758ea4a923_o.jpg)
 
 
 强制使用SSL，可以使用通配符*
-![](https://lh3.googleusercontent.com/-_OCHTuAPkqQ/WjPF3Cm-IDI/AAAAAAABffE/Pj_IKK_4mq4xEpVjwuuP1UFiNZOHoAzcwCHMYCw/I/15133424283989.jpg)
+![](https://farm5.staticflickr.com/4741/39421707014_8a2750321f_o.jpg)
 
 
 完成，剩下的就是等待了，正常情况下过个把小时就能以https访问了。

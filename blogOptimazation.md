@@ -14,7 +14,7 @@ tags: [hexo, github, next]
 ### fork me on github
 
 #### 1）通过[github-ribbons](https://github.com/blog/273-github-ribbons)或[github-corners](http://tholman.com/github-corners/)，寻找合适的图标，把代码复制下来；
-![](http://oslz30y7b.bkt.clouddn.com/18-1-23/25770231.jpg)
+![](https://farm5.staticflickr.com/4622/28352861209_34a124ced4_o.jpg)
 
 #### 2）打开` themes/next/layout/_layout.swig `文件，把代码复制到`<div class="headband"></div>`下面。
 

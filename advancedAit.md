@@ -26,7 +26,7 @@ github申请、安装及基础使用，这个之前整理过，想见[这里。]
 
 branch的本意是树枝，这里是分支，指的是repo从初始commit到当前commit的一个串。每个github repo都有一个默认分支，叫做master。
 
-![](https://lh3.googleusercontent.com/-Gi5jvfb2tWw/WmXee1HLdNI/AAAAAAABgG0/Q-zyS35t9qcbiksisx8PyHv6hPnbxnjnACHMYCw/I/15166255295971.jpg)
+![](https://farm5.staticflickr.com/4648/26259667448_9766cde2da_o.jpg)
 
 <!--more-->
 
@@ -137,7 +137,7 @@ git rebase -i HEAD～5    //在 commit 的后面加上 ~ 号和一个数，可�
 
 ##### 第三步：选择 需要更改的commit ，将pick改为edit，之后推出编辑界面
 
-![](https://lh3.googleusercontent.com/-hi4G18VUD0I/WmXrlZwCWNI/AAAAAAABgHE/Uy5HR703t5Iram_TwiWrPCUrMEAX4iAiQCHMYCw/I/15166288837618.jpg)
+![](https://farm5.staticflickr.com/4721/26259670798_68fba6b81f_o.jpg)
 
 ##### 第四步：修改写错的 commit
 
@@ -188,7 +188,7 @@ git stash pop
 
 git reflog   //reflog 是 "reference log" 的缩写，用来查看 Git 仓库中的引用的移动记录
 
-![](https://ws1.sinaimg.cn/large/4dbb668bgy1fnprfcxqeoj20xc04ewll.jpg)
+![](https://farm5.staticflickr.com/4625/40100633492_68c5336a9f_o.jpg)
 
 从图中可以看出，HEAD 的最后一次移动行为是「从 branch1 移动到 master」。而在这之后，branch1 就被删除了。所以它之前的那个 commit 就是 branch1 被删除之前的位置了，也就是第二行的 c08de9a。
 

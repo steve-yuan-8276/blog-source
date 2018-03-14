@@ -21,18 +21,18 @@ tags: [front-end, hexo, icon]
 按照[说明文档](http://theme-next.iissnan.com/theme-settings.html)和[isuues](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5)提示的操作方法，在[fontawesome](http://fontawesome.io/icons/)找到相应的图片名称，但是显示结果很预期的不一样。
 
 实际显示效果是这样的（如图），只有facebook正常，其他三个图标都不对，不知道为什么。
-![](http://oslz30y7b.bkt.clouddn.com/17-12-14/74306491.jpg)
+![](https://farm5.staticflickr.com/4612/26259645308_a69050b733_o.jpg)
 
 ### 问题分析解决
 你说怪不怪，为啥只有FB的icon正确显示，其他的不见踪迹呢？难道我只有在Facebook比较受欢迎，其他的都不受待见？
-![](http://oslz30y7b.bkt.clouddn.com/17-12-15/91006122.jpg)
+![](https://farm5.staticflickr.com/4770/40133549311_53b642c90c_o.jpg)
 试着更换了别的图标，还是不对！
 
 神马情况？直到我看到了这句话：
-![](http://oslz30y7b.bkt.clouddn.com/17-12-15/45771296.jpg)
+![](https://farm5.staticflickr.com/4612/39421700664_6abe018cd8_o.jpg)
 
 示例代码：
-![](http://oslz30y7b.bkt.clouddn.com/17-12-15/78119604.jpg)
+![](https://farm5.staticflickr.com/4748/40133551101_f8e2cb015f_o.jpg)
 
 看到这里，突然有一种想抽自己的冲动。原来答案一直就杵在眼前，而我却一直视而不见，还花了三天的时间各种查资料！
 

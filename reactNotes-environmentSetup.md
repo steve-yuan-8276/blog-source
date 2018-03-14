@@ -1,5 +1,5 @@
 ---
-title: 'REACT学习笔记：编程环境配置'
+title: 'REACT学习笔记（一）：编程环境配置'
 date: 2018-01-30 21:28:27
 categories: react 
 tags: [react, github, node, npm] 
@@ -20,10 +20,19 @@ tags: [react, github, node, npm]
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-##### uodate homebrew：
-```
-brew update in
-```
+##### homebrew常用命令：
+
+命令| 作用
+---|---
+brew install <软件名>| 安装软件 
+brew uninstall <软件名> | 卸载软件
+brew search <软件名>|查询软件
+brew list | 列出已安装的软件
+brew update|更新brew
+brew home|用浏览器打开brew的官方网站
+brew info <软件名>|显示软件信息
+brew deps|显示包依赖
+
 <!--more-->
 
 #### Git  版本管理
@@ -66,6 +75,7 @@ link: ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /us
 ```
 brew cask install iterm2
 ```
+
 
 #### Node 和 Npm
 
@@ -134,7 +144,7 @@ cd hackernews
 ```
 
 安装完之后的文件目录结构如下：
-![](https://lh3.googleusercontent.com/-myuygpcX7Rg/WnAWZ06fVgI/AAAAAAABgKc/qRt3LXGiB9MLWXtUHZOCDidZxAfKYIK6ACHMYCw/I/15172952052835.jpg)
+![](https://farm5.staticflickr.com/4748/39234421475_2528656f83_o.jpg)
 
 其中需要关注的文件夹有：
 

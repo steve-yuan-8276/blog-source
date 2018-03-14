@@ -15,7 +15,7 @@ list  contents  of directories in a tree-like format.顾名思义，就是可以
 
 <!--more-->
 
-![](https://lh3.googleusercontent.com/-rDPY4rDi_c0/WnB3-0GqWGI/AAAAAAABgLQ/uDrAuJaQaxMJ5BscwWpSH9b9m3mQgrAMACHMYCw/I/15173201842167.jpg)
+![](https://farm5.staticflickr.com/4604/39234422945_1ce3d988ce_o.jpg)
 
 ##### Installation
 
@@ -40,7 +40,7 @@ tree -L 2 //L 表示level，后面的2表示两级目录
 http://wttr.in 是一个允许你搜索世界各地天气预报的网站，而且它的是以 ASCII 字符的形式来显示结果的。通过使用 cURL 访问 http://wttr.in，就能直接在终端显示查询结果了。
 
 查询效果是这样的，还是挺骚包的
-![](https://lh3.googleusercontent.com/-cQF82qBB2YA/WnB7vNt3k2I/AAAAAAABgLc/mHRGm3aSWhArkWkYTi_CeRtVvEG4q1XPgCHMYCw/I/15173211431762.jpg)
+![](https://farm5.staticflickr.com/4711/39421680974_105b070e0e_o.jpg)
 
 ##### 获取指定地点的天气
 
@@ -60,7 +60,7 @@ $ curl wttr.in/newyork
 ```
 curl wttr.in/~tiananmen-square
 ```
-![](https://lh3.googleusercontent.com/-RxeS99xyXy8/WnB-asNAoJI/AAAAAAABgLo/zgjN0S_8QDk5DSlDrjT0sF5iTAqgeQkYQCHMYCw/I/15173218282849.jpg)
+![](https://farm5.staticflickr.com/4714/39234428045_bb0d6db5e7_o.jpg)
 
 ###### 方式3: 获取ip所在地天气
 
@@ -89,7 +89,7 @@ $ date     查询具体日期时间
 
 ### 查询比特币价格
 
-![](http://oslz30y7b.bkt.clouddn.com/18-1-31/80978729.jpg)
+![](https://farm5.staticflickr.com/4628/28352847519_4669b0281e_o.png)
 
 Installation：
 前提是已经安装了node.js 和 npm，之后运行以下命令行：

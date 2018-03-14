@@ -18,11 +18,11 @@ tags: [hexo,github]
 ### step 2: 域名设置解析
 
 #### 1.登陆[万网](https://wanwang.aliyun.com/)，点击控制台 => 产品与服务 => 域名 => 解析
-![](https://lh3.googleusercontent.com/-4l_UrYjxCcU/WjDdNAFp_II/AAAAAAABfbI/bIdm4HkBBM0xwOmsVg0AX-X3QfHTHvUDgCHMYCw/I/15131517918669.jpg)
+![](https://farm5.staticflickr.com/4747/40133558121_38db1f3428_o.jpg)
 
 
 #### 2. 继续点击 添加解析 
-![](https://lh3.googleusercontent.com/-2vG1kfk2dQo/WjDd8RtvLwI/AAAAAAABfbU/6bCxiYEUurodJUi7JIUmR8GP_GffKA1SACHMYCw/I/15131519846255.jpg)
+![](https://farm5.staticflickr.com/4608/40133558361_989156f7e9_o.jpg)
 
 如图所示，这里只需要改动两处：
 一是主机记录，写 “www”
@@ -47,7 +47,7 @@ www.steve-yuan.com      #这里是自己的域名
 
 ### step 4: 修复Bug
 如果正确进行了以上几步，将会看到以下画面：
-![](https://lh3.googleusercontent.com/-FaZqfh3btqU/WjDjQBNCHnI/AAAAAAABfbk/QHMVDgbAqk0K2wcANfe1PoYYFonwkvnqACHMYCw/I/15131533428578.jpg)
+![](https://farm5.staticflickr.com/4657/39421710264_7d56cab0e1_o.jpg)
 
 google了一下，原来已经有人踩过这个坑了。虽然解析到了github服务器，但是并没有指向正确的页面。
 

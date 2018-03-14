@@ -29,7 +29,7 @@ npm install hexo-cli -g
 前期准备部分就遭遇trouble到关键原因，当然还是自己太菜了。
 
 这里有个坑，第一次在安装node.js的时候，装的是8.9.4LTS版本，本身没问题，但在安装hexo的时候遇到了错误提示：
-![err](https://lh3.googleusercontent.com/-FVaiT8jb6eM/Wk44fY-jXWI/AAAAAAABf-Q/_QqMdO1aMwcO4P0ijL8PVFE-DrKnDXRLgCHMYCw/I/err.png)
+![err](https://farm5.staticflickr.com/4603/26259675018_6ebca2d901_o.jpg)
 大概就是说权限不够，google了一翻，在stack overflow上找到了答案，具体见[网址](https://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
 简单说就是要授权，按照网页的提示，在终端中输入：

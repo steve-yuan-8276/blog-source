@@ -7,7 +7,7 @@ tags: [centos,linux, notes]
 
 ### 写在前面
 
-之前断断续续自学过一部分，现在拿到了猿课的学习计划，索性按照这个计划重新系统整理一遍。
+这是猿课linux运维的第一篇，先给自己加加油，争取四个月之内顺利毕业。
 
 ### Linux基础知识
 
@@ -26,7 +26,7 @@ Linux跟MacOS、Windows一样，都是计算机操作系统，不同之处在有
 Ubuntu| https://www.ubuntu.com/|目前最流行的个人版Linux系统，界面做得比较美观。| 使用apt安装和更新软件
 Red Hat Enterprise（RHEL）| https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux | 面向企业的server版本，也是应用最广泛的server版本。| 需要授权付费才能使用yum工具
 centOS| https://www.centos.org/|CentOS与RHEL 100%兼容，更重要的是完全免费。| 使用yum工具安装和更新软件
-Debian| https://www.debian.org/| 元老级的linux版本，也非常适合英语server| 使用apt或aptitude来安装和更新软件
+Debian| https://www.debian.org/| 元老级的linux版本，也非常适合英语server| 使用apt安装和更新软件
 
 ### 安装虚拟机
 
@@ -36,9 +36,7 @@ Debian| https://www.debian.org/| 元老级的linux版本，也非常适合英语
 ---|---|---|---
  VirtualBox| https://www.virtualbox.org/wiki/Downloads |免费，适用于mac、Windows 
 VMware fusion | https://store.vmware.com/store?Action=home&Locale=en_US&SiteID=vmware| 付费，使用与mac和wondows |价格居中，尤其是在某宝上
-parallel desktop | https://www.parallels.com/cn/products/desktop/ |付费，适用于mac和windows |价格最贵，不过近两年都有bundle
-
-安装都是傻瓜式，一路默认下一步即可。
+parallel desktop | https://www.parallels.com/cn/products/desktop/ |付费，适用于mac和windows |价格最贵，不过近两年都有bundle。
 
 ### 安装centOS7
 
@@ -50,13 +48,37 @@ parallel desktop | https://www.parallels.com/cn/products/desktop/ |付费，适�
 
 #### 新建虚拟机：
 
-##### 安装注意要点：
+##### 安装要点：
 
-1. 在“自定义硬件”的选项中，网络适配器建议选择NAT模式，兼容性最好。
+###### 1. 系统语言：有中文设置，不过我选择了默认英文
+![](https://farm5.staticflickr.com/4795/40096188544_64caf2d034_o.png)
 
-2. 在系统“安装位置”中，选择“我要配置分区”，自定义系统分区；在 LVM下拉菜单，选择 “标准分区”，之后点击加号手动进行修改，点击“添加挂载点”，最后点击“完成”，保存“接收更改”。
+###### 2. 时区设置：选择asia，shanghai或者hongkong都OK，反正都是东八区 
+![](https://farm5.staticflickr.com/4794/40763821762_1b5ab843b3_o.png)
 
-3. 虚拟机分区原则：
+![](https://farm5.staticflickr.com/4786/40096214624_9fa2d544cc_o.png)
+
+###### 3. 系统分区：
+![](https://farm5.staticflickr.com/4786/39910598915_54f93524b4_o.png)
+
+- 在系统“安装位置”中，选择“我要配置分区”，自定义系统分区；
+![](https://farm5.staticflickr.com/4774/25934222407_5c921ba09b_o.png)
+
+- 在 LVM下拉菜单，选择 “标准分区”，之后点击加号手动进行修改
+![](https://farm5.staticflickr.com/4772/26935868658_9946af8702_o.png)
+
+- 这里分了三个区： `/boot` 、`/swap` 、`/ `。除`/boot` 、`/swap`之外的空间都可以分给` / `根目录。
+
+![](https://farm5.staticflickr.com/4788/40805785351_2fccdcbc05_o.png)
+
+###### 4. 设置一下root用户密码，稍微复杂一点。
+![](https://farm5.staticflickr.com/4794/40805799851_bc419713ca_o.png)
+
+###### 5. 接受分区，更改，继续安装就好了。
+
+##### 注意事项：
+
+###### 1. 系统分区一般按照如下原则进行划分，但考虑到虚拟机主要是为了学习目的，总共只有20G硬盘空间，所以没有设置`/data`  分区。
 
 分区名称| 空间大小
 ---|---
@@ -65,11 +87,7 @@ parallel desktop | https://www.parallels.com/cn/products/desktop/ |付费，适�
 / | 20G
 /data | 剩余磁盘空间
 
-**注意：**
-
-1. 如果是虚拟机仅仅用来学习linux，磁盘空间有限的情况下，处 `/boot` 、`/swap` 之外的空间都可以分给 / 根目录，没有必要再分出` /data` 了。
-
-2. swap分区大小跟物理内存大小有关，通常建议如下：
+###### 2. swap分区大小跟物理内存大小有关，通常建议如下：
 
 物理内存 | SWAP分区
 ---|---

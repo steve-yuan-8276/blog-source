@@ -13,8 +13,9 @@ tags: [hexo, github, next]
 
 ### fork me on github
 
-#### 1）通过[github-ribbons](https://github.com/blog/273-github-ribbons)或[github-corners](http://tholman.com/github-corners/)，寻找合适的图标，把代码复制下来；
-![](https://farm5.staticflickr.com/4622/28352861209_34a124ced4_o.jpg)
+#### 1）通过[github-ribbons](https://github.com/blog/273-github-ribbons)或[github-corners](http://tholman.com/github-corners/)，寻找合适的图标，把代码复制下来。**注：红框位置替换为自己的github地址**
+
+![](https://farm1.staticflickr.com/816/41228017641_01dce154d1_o.png)
 
 #### 2）打开` themes/next/layout/_layout.swig `文件，把代码复制到`<div class="headband"></div>`下面。
 
@@ -25,10 +26,13 @@ tags: [hexo, github, next]
 #### 1）在站点的根目录下执行以下命令：
 
 ```
-$ npm install gulp -g
-$ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --save
+$ npm install --global gulp-cli   //全局安装
+$ npm install --save-dev gulp   //npm install --save-dev gulp
 $ touch gulpfile.js  //新建 gulpfile.js
 ```
+
+**注：**[gulp.js 官方使用说明](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md)
+
 #### 2）采用atom 打开gulpfile.js，复制粘贴以下代码：
 
 ```

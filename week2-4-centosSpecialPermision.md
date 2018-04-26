@@ -1,4 +1,3 @@
----
 title:  'Linux运维学习笔记2-4：文件目录特殊权限及链接文件'
 date: 2018-03-27 16:50:36
 categories: linux
@@ -191,9 +190,9 @@ ln -s [源文文件或目录] [目标文件或目录]
 
 * [硬链接、软链接及inode详解](https://blog.csdn.net/lixungogogo/article/details/52176571)
 
-* [ linux 硬链接和软连接](https://blog.csdn.net/u012881904/article/details/72229008)
+* [ linux 硬链接和软链接](https://blog.csdn.net/u012881904/article/details/72229008)
 
-* [关于硬链接和软连接（符号链接）的区别](https://blog.csdn.net/hairetz/article/details/4168296)
+* [关于硬链接和软链接（符号链接）的区别](https://blog.csdn.net/hairetz/article/details/4168296)
 
 * [5 分钟让你明白 “软链接” 和“硬链接”的区别](https://www.jianshu.com/p/dde6a01c4094)
 
